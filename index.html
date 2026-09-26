@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bible Words Reader — Support</title>
+<meta name="description" content="Support, FAQ and privacy for Bible Words Reader, an iPhone app for reading the Bible in Greek, Hebrew and Aramaic.">
+<meta name="theme-color" content="#F7F1E4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1C1813" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="assets/favicon-64.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+  <header>
+    <picture>
+      <source srcset="assets/icon-dark-256.png" media="(prefers-color-scheme: dark)">
+      <img class="mark" src="assets/icon-256.png" width="88" height="88" alt="Bible Words Reader app icon">
+    </picture>
+    <h1>Bible Words Reader</h1>
+    <p class="tagline">Read the Bible in Greek, Hebrew and Aramaic — one word at a time.</p>
+
+    <!-- TODO(owner): replace this placeholder with Apple's official
+         "Download on the App Store" badge linking to the apps.apple.com URL
+         once the app is live. -->
+    <span class="store-badge">Coming soon to the App Store</span>
+
+    <nav aria-label="Sections">
+      <a href="#help">Get help</a>
+      <a href="#faq">Common questions</a>
+      <a href="#sources">Text sources</a>
+      <a href="privacy.html">Privacy policy</a>
+    </nav>
+  </header>
+
+  <h2 id="about">What it is</h2>
+  <div class="card">
+    <p>
+      Bible Words Reader is an iPhone app for reading the Greek New Testament and
+      the Hebrew and Aramaic Old Testament. Tap any word to see its dictionary
+      form, a short English gloss and its full parsing.
+    </p>
+    <ul>
+      <li>An optional word-for-word English line under each verse.</li>
+      <li>Vocabulary lists built from any passage, or from presets such as Greek
+        words used more than 100 times, studied with spaced-repetition
+        flashcards.</li>
+      <li>Reading plans with real calendar dates, a daily goal, a reading streak
+        and an optional daily reminder.</li>
+      <li>Notes and bookmarks.</li>
+      <li>On devices with Apple Intelligence, describe a reading plan or
+        vocabulary list out loud and let the on-device assistant build it.</li>
+    </ul>
+    <p class="muted small">
+      iPhone, iOS 27 or later. Works offline — the whole Bible and its word data
+      come with the app. No account, no ads, no tracking.
+    </p>
+  </div>
+
+  <h2 id="help">Get help</h2>
+  <div class="card">
+    <p style="margin:0">
+      Questions, bugs, or something that reads wrong in the Greek or Hebrew?
+      Email me directly — I read everything.
+    </p>
+    <a class="contact" href="mailto:shayneptorres@gmail.com?subject=Bible%20Words%20Reader%20Support">
+      shayneptorres@gmail.com
+    </a>
+    <p style="margin:.9rem 0 0" class="small muted">
+      When reporting a bug, it helps to include your iPhone model, iOS version,
+      the passage you were reading (for example John 1:1), and what you were
+      doing when it happened.
+    </p>
+  </div>
+
+  <h2 id="faq">Common questions</h2>
+  <div class="card">
+
+    <details>
+      <summary>Which Greek and Hebrew texts does the app use?</summary>
+      <p>
+        The Greek New Testament comes from the Open Greek New Testament
+        (OpenGNT), based on the Nestle 1904 text, with glosses from STEP Bible.
+        The Hebrew and Aramaic Old Testament, with its word-by-word parsing,
+        comes from the Open Scriptures Hebrew Bible. Full credits and licences
+        are under <a href="#sources">Text sources</a>.
+      </p>
+    </details>
+
+    <details>
+      <summary>Does it work offline?</summary>
+      <p>
+        Yes. The biblical text, dictionary forms, glosses and parsing are all
+        bundled with the app, so reading, word lookups, flashcards, plans, notes
+        and bookmarks all work without a connection. Only the optional links out
+        to other apps and websites (such as YouVersion, BibleGateway or Logos)
+        need the internet.
+      </p>
+    </details>
+
+    <details>
+      <summary>What happens when I tap a word?</summary>
+      <p>
+        You'll see the word's dictionary form (lemma), a short English gloss and
+        its full parsing — part of speech plus tense, voice, mood, person,
+        number, gender, case or stem as they apply.
+      </p>
+    </details>
+
+    <details>
+      <summary>What is the word-for-word ("wooden") line, and how accurate is it?</summary>
+      <p>
+        It's a rough English rendering of each word, kept in the original word
+        order, so you can follow the Greek or Hebrew without switching to a
+        translation. It's built from dictionary glosses and the verb's parsing,
+        not written by a translator, so it reads awkwardly on purpose and is
+        sometimes simply wrong. Narrative and letters read best; Hebrew poetry
+        and the prophets are noticeably rougher. Treat it as a window into the
+        source text, not a translation.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I turn on the word-for-word line?</summary>
+      <p>
+        It's off by default. In the reader, tap the <strong>Tools</strong>
+        button (the grid of four squares), choose <strong>Reader
+        settings</strong>, and switch on <strong>Show wooden
+        translation</strong>. It appears in the <strong>Verse by verse</strong>
+        layout, which you can pick in the same screen.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do the flashcards decide when I see a word again?</summary>
+      <p>
+        After each card you rate how well you knew it. The schedule is a
+        variant of the classic SM-2 method:
+      </p>
+      <ul>
+        <li><strong>Good</strong> — first review in 1 day, then 6 days, then
+          the gap grows by the word's ease (up to 2.5×) each time.</li>
+        <li><strong>Easy</strong> — a new word jumps straight to 4 days, and
+          known words grow faster than with Good.</li>
+        <li><strong>Hard</strong> — still counts as remembered, but the gap only
+          grows a little and the word gets slightly harder to space out.</li>
+        <li><strong>Again</strong> — the word comes back tomorrow and its gaps
+          grow more slowly from then on.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>What kinds of vocabulary lists can I make?</summary>
+      <p>
+        Build a list from any passage — a chapter, a book or a range — or start
+        from a preset: Greek or Hebrew words that occur more than 100, 75, 50,
+        25, 10 or 5 times. On devices with Apple Intelligence you can also
+        describe the list you want out loud.
+      </p>
+    </details>
+
+    <details>
+      <summary>How does the reading streak work?</summary>
+      <p>
+        Any day you mark reading counts toward your streak. You get one
+        "freeze" a month, which covers a single missed day so one busy day
+        doesn't erase a long run. Your longest streak is kept even after a
+        streak ends.
+      </p>
+    </details>
+
+    <details>
+      <summary>Why didn't my daily reminder arrive?</summary>
+      <ul>
+        <li><strong>Notifications are off.</strong> If you declined the
+          permission, the reminder settings say so and offer a shortcut to iOS
+          Settings to turn notifications back on for the app.</li>
+        <li><strong>You already read that day.</strong> The reminder is skipped
+          on purpose on days that already have reading.</li>
+        <li><strong>You haven't opened the app for a while.</strong> The
+          reminder is scheduled one day at a time and refreshed whenever you
+          open the app or record reading, so after a stretch away it resumes
+          once you open the app again.</li>
+        <li><strong>A Focus mode or Scheduled Summary</strong> may be holding
+          it back — check iOS Settings → Notifications.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>What does the voice assistant need?</summary>
+      <p>
+        An iPhone that supports Apple Intelligence, with Apple Intelligence
+        turned on and its on-device model finished downloading. It also asks
+        for microphone and speech-recognition permission the first time you use
+        it. Speech is transcribed on your device and requests are handled by
+        Apple's on-device model — nothing is sent to me or to any server. If
+        your device can't run it, the voice options are hidden or explained and
+        you can build lists and plans by hand as usual.
+      </p>
+    </details>
+
+    <details>
+      <summary>Does it sync between devices or use iCloud?</summary>
+      <p>
+        No. There's no account and no iCloud sync — your lists, study progress,
+        plans, notes and bookmarks live only on the iPhone where you created
+        them.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I back up my study data?</summary>
+      <p>
+        The app has no export or sync of its own. Your data is included in your
+        iPhone's regular backup (iCloud Backup, or a backup to a Mac or PC), so
+        restoring your iPhone — or setting up a new one — from a backup brings
+        it back.
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I reset or delete my data?</summary>
+      <p>
+        Swipe to delete individual vocabulary lists, reading plans, notes or
+        bookmarks. To erase everything at once, delete the app from your iPhone
+        — that removes all of its data. (Restoring an older iPhone backup can
+        bring that data back.)
+      </p>
+    </details>
+
+    <details>
+      <summary>How do I see the introduction again?</summary>
+      <p>
+        Tap <strong>Tools</strong> (the grid of four squares) →
+        <strong>Settings</strong>, then under <strong>Help</strong> choose
+        <strong>Show Onboarding</strong>. The reading plans and vocabulary tours
+        are there too. Replaying a tour doesn't change your reading position,
+        plans or goal.
+      </p>
+    </details>
+
+    <details>
+      <summary>What about accessibility?</summary>
+      <p>
+        You can change the reading text size under <strong>Reader
+        settings</strong>, and the app follows your system light or dark
+        appearance. If something is hard to use with VoiceOver, larger text or
+        any other accessibility setting, please <a href="#help">email me</a> —
+        I'd like to fix it.
+      </p>
+    </details>
+
+    <details>
+      <summary>Is there an iPad version?</summary>
+      <p>
+        Not yet — Bible Words Reader is designed for iPhone for now.
+      </p>
+    </details>
+
+  </div>
+
+  <h2 id="sources">Text sources &amp; acknowledgements</h2>
+  <div class="card">
+    <h3>Greek New Testament</h3>
+    <p>
+      Greek text, word order, Strong&rsquo;s numbers, lexemes and morphology come from
+      the &ldquo;Open Greek New Testament Project&rdquo; (OpenGNT v3.3) by Eliran Wong
+      &mdash; <a href="https://github.com/eliranwong/OpenGNT">github.com/eliranwong/OpenGNT</a>
+      &mdash; licensed under
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+      It is based on the Nestle 1904 Greek New Testament (public domain) via the
+      Berean Greek Bible database.
+    </p>
+    <p>
+      Changes: the data was converted to the app&rsquo;s own format and its morphology
+      codes expanded into English descriptions. That adapted Greek data is itself
+      available under CC BY-SA 4.0 at
+      <a href="https://github.com/shayneptorres/bible-words-reader-data">github.com/shayneptorres/bible-words-reader-data</a>.
+    </p>
+    <p>
+      Brief Greek glosses come from STEP Bible
+      (<a href="https://www.STEPBible.org">www.STEPBible.org</a>), Tyndale House,
+      Cambridge, licensed under
+      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+    </p>
+
+    <h3>Hebrew and Aramaic Old Testament</h3>
+    <p>
+      Lemma and morphology data from the
+      <a href="https://github.com/openscriptures/morphhb">Open Scriptures Hebrew Bible Project</a>,
+      licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+      Hebrew text: the Westminster Leningrad Codex (public domain). Some glosses are
+      adapted from Strong&rsquo;s Hebrew Dictionary (public domain).
+    </p>
+
+    <p class="muted small">
+      These licences govern the Bible data wherever the app&rsquo;s end-user licence
+      would otherwise restrict it.
+    </p>
+
+    <h3>Fonts</h3>
+    <p>
+      Greek text is set in Gentium Plus (SIL International) and Hebrew in Frank
+      Ruhl Libre, both under the SIL Open Font License.
+    </p>
+  </div>
+
+  <h2 id="privacy">Privacy</h2>
+  <div class="card">
+    <p>
+      Bible Words Reader collects nothing. Your vocabulary lists, study progress,
+      reading plans, notes and bookmarks stay on your iPhone. There are no
+      accounts, no ads, no analytics and no third-party services. Voice input is
+      processed on your device and is not sent to me or stored anywhere.
+    </p>
+    <p><a href="privacy.html">Read the full privacy policy</a></p>
+  </div>
+
+  <footer>
+    <p>© 2026 Shayne Torres</p>
+    <p><a href="privacy.html">Privacy policy</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
